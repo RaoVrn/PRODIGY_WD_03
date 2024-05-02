@@ -35,6 +35,3 @@ If you want to play against an AI opponent, you can implement an AI algorithm in
 
 Contributions are welcome! If you have any suggestions, bug fixes, or enhancements, feel free to submit a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
