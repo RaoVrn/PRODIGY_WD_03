@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Tic-Tac-Toe</h1>
+    <div class="player-info">
+      <label for="player-x-name">Player X's Name:</label>
+      <input type="text" id="player-x-name">
+      <label for="player-o-name">Player O's Name:</label>
+      <input type="text" id="player-o-name">
+      <button id="start-btn">Start Game</button>
+    </div>
+    <div id="game-board" class="game-board">
+      <!-- Game board will be generated dynamically using JavaScript -->
+    </div>
+    <div class="status">
+      <span id="status-message"></span>
+      <div id="score" class="score">
+        <span id="player-x-score"></span> - <span id="player-o-score"></span>
+      </div>
+      <button id="reset-btn">Reset</button>
+    </div>
+  </div>
+  <footer>
+    <p>Made by Varun</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
